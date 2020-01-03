@@ -1,5 +1,6 @@
 # Yield passes the values in its arguments to be executed by the block
-# that called it
+# that called it. That block's parameters are contained in pipes. Look at
+# the example
 def map(source_array)
   new_array = []
   index = 0
