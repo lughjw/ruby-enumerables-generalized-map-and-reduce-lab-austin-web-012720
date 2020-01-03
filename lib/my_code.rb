@@ -1,4 +1,5 @@
-# Your Code Here
+# Yield passes the values in its arguments to be executed by the block
+# that called it
 def map(source_array)
   new_array = []
   index = 0
