@@ -1,4 +1,7 @@
-# Your Code Here
+# Yield passes the values in its arguments to be executed by the block
+# that called it. That block's parameters are contained in pipes. Look at
+# spec/generalized_map_and_reduce_spec.rb to see that part.
+
 def map(source_array)
   new_array = []
   index = 0
